@@ -1,0 +1,47 @@
+.first{
+    width: 350px;
+    height: 398px;
+    box-sizing: border-box;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    color: rgb(38, 38, 38);   
+    align-items: center;
+    background-color: #fff;
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    vertical-align: baseline;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color: rgb(190, 190, 190);
+}
+.right{
+    width: 350px;
+    height: 581.150px;
+
+}
+.otstup{
+    margin: 24px 0 0;
+}
+.number{
+    margin: 0 40px 6px 40px;
+}
+.password{
+    margin: 0 40px 6px 40px;
+}
+.buttom{
+    margin: 8px 40px 8px 40px;
+}
+.bttn{
+    padding: 7px 16px 7px 16px;
+    width: 268px;
+    height: 38px;
+}
+.logingoi{
+    width: 268px;
+    height: 38px;
+}
+.akimbek{
+
+}
