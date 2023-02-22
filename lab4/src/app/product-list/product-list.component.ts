@@ -13,7 +13,6 @@ export class ProductListComponent {
 
   share(product: Product) {
     window.alert('The product has been shared!');
-    window.open(`https://api.whatsapp.com/send?phone=77767283492&text=${product.link}`);
   }
 
 
