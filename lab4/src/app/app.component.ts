@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+<<<<<<< HEAD
 import { Categories } from './categories';
+=======
+>>>>>>> dfa4b5b1c40a1a5bb10ccf20916a5c82b2c6b7ae
 
 @Component({
   selector: 'app-root',
@@ -7,6 +10,7 @@ import { Categories } from './categories';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+<<<<<<< HEAD
   categories = Categories;
   show = false;
   categoryName = "";
@@ -20,6 +24,8 @@ export class AppComponent {
       this.categoryName = name;
     }
   }
+=======
+>>>>>>> dfa4b5b1c40a1a5bb10ccf20916a5c82b2c6b7ae
 }
 
 

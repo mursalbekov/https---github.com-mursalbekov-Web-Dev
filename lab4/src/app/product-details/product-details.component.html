@@ -2,7 +2,11 @@
 
 <div *ngIf="product">
   <h3>{{ product.name }}</h3>
+<<<<<<< HEAD
   <h4>{{ product.price | currency:"₸" }}</h4>
+=======
+  <h4>{{ product.price | currency }}</h4>
+>>>>>>> dfa4b5b1c40a1a5bb10ccf20916a5c82b2c6b7ae
   <p>{{ product.description }}</p>
   <button type="button" (click)="addToCart(product)">Buy</button>
 </div>

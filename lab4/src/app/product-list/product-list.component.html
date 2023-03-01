@@ -1,7 +1,35 @@
+<<<<<<< HEAD
 <div *ngFor="let product of products">
   <div *ngIf="categoryName && categoryName.toLowerCase() == product.category.toLowerCase()">
     <app-product-item [product]="product" (remove)="remove($event)"></app-product-item>
   </div>
+=======
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+
+  <img [src]="product.image" width="150vh">
+  <h3>
+    <a [title]="product.name + ' details'"
+    [routerLink]="['/products', product.id]">
+      {{ product.name }}
+    </a>
+  </h3>
+
+  <p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+
+  <button type="button" (click)="share()">
+    Share
+  </button>
+
+
+  <app-product-alerts
+    [product]="product"
+    (notify)="onNotify()">
+  </app-product-alerts>
+>>>>>>> dfa4b5b1c40a1a5bb10ccf20916a5c82b2c6b7ae
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.

@@ -10,7 +10,10 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
+<<<<<<< HEAD
 import { ProductItemComponent } from './product-item/product-item.component';
+=======
+>>>>>>> dfa4b5b1c40a1a5bb10ccf20916a5c82b2c6b7ae
 
 @NgModule({
   imports: [
@@ -31,8 +34,12 @@ import { ProductItemComponent } from './product-item/product-item.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
+<<<<<<< HEAD
     ShippingComponent,
     ProductItemComponent
+=======
+    ShippingComponent
+>>>>>>> dfa4b5b1c40a1a5bb10ccf20916a5c82b2c6b7ae
   ],
   bootstrap: [
     AppComponent
