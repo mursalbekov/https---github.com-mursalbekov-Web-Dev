@@ -1,0 +1,67 @@
+.glav{
+    background-color: #f0f2f5;
+    padding:72px 0 112px;
+}
+.main-block{
+    margin: 0 250px 0 250px ;
+    padding: 20px 0 20px;
+    width: 920px;
+    height: 496px;
+}
+.main-text{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 0 0 20px;
+}
+#logo{
+    height: 106px;
+    margin: -28px;
+}
+.logo-div{
+    padding: 112px 0px 16px;
+    
+}
+.block-2{
+    margin: 0 150px;
+    padding: 20px 0px 20px 0px;
+
+}
+.merei{
+    padding: 112px 0 16px;
+}
+.left{
+    padding: 0 35px 0 0;
+    width: 380px;
+    vertical-align: top;
+}
+.form{
+    background-color: #fff;
+    padding: 10px 5px 20px 5px;
+    margin: -10px 850px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px -7px;
+    margin-right: 150px;
+}
+.right{
+    width: 396px;
+    height: 496px;
+}
+#text1{
+    padding: 6px 0;
+}
+.te43{
+    width: 396px;
+    height: 131px;
+}
+#text2{
+    padding: 6px 0px;
+}
+input{
+    width: 363px;
+    height: 51px;
+}
+.top{
+    width: 396px;
+    height: 348px;
+}
